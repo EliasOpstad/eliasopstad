@@ -28,7 +28,7 @@ export default function Home(){
       </Section>
       <Section id='jobberfaring' title='Jobberfaring'>
         <p>Sommerjobb hos Bekk 2023</p>
-        <p>Bit Union AS - Selger 6 år</p>
+        <p>Bit Union AS - Selger 6 &apos;å&apos;r</p>
         <p>Frigg - Fotballtrener</p>
       </Section>
       <Section id='fritid' title='Fritid'>
