@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Min Personlige Nettside',
-  description: 'Utforsk prosjektene, utdanningen, jobberfaringen og fritiden min.',
+  title: 'Elias Opstad - Nettside',
+  description: 'Dette er min personlige nettside',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

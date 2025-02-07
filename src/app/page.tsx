@@ -1,3 +1,4 @@
+import DisplayProject from '@/components/DisplayProject';
 import Section from '@/components/Section';
 
 /* eslint-disable react/no-unescaped-entities */
@@ -6,16 +7,10 @@ export default function Home(){
   return(
     <>
       <Section id='hvemerjeg?' title='Hvem er jeg?'>
-        <h1>Prosjekt 1: Gustav's Vinbar & Tapas </h1>
-        <p>Prosjekt 2: Devpipeline.no</p>
-        <p>Prosjekt 3: MexicanTrain.no</p>
-        <p>Prosjekt 4: MoviePicker</p>
+        <h1>Velkommen til nettsiden min. Jeg heter Elias Opstad og ble nettopp ferdig med mastergrade innen Informatikk: programmering og systemarkitektur ved Universitetet i Oslo. </h1>
       </Section>
       <Section id='prosjekter' title='Prosjekter'>
-        <h1>Prosjekt 1: Gustav's Vinbar & Tapas </h1>
-        <p>Prosjekt 2: Devpipeline.no</p>
-        <p>Prosjekt 3: MexicanTrain.no</p>
-        <p>Prosjekt 4: MoviePicker</p>
+        <DisplayProject/>
       </Section>
       <Section id='ferdigheter' title='Ferdigheter'>
         <h1>Prosjekt 1: Gustav's Vinbar & Tapas </h1>
