@@ -1,3 +1,4 @@
+import DisplayFritid from '@/components/DisplayFritid';
 import DisplayProject from '@/components/DisplayProject';
 import Section from '@/components/Section';
 
@@ -28,9 +29,10 @@ export default function Home(){
         <p>Frigg - Fotballtrener</p>
       </Section>
       <Section id='fritid' title='Fritid'>
-        <p>Fotballtrener, lagleder og spiller for Frigg 4</p>
+        <DisplayFritid/>
+        {/* <p>Fotballtrener, lagleder og spiller for Frigg 4</p>
         <p>Faceit lv 10 i CS2</p>
-        <p>Tidligere aktiv sjakkspiller, deltatt i Oslomesterskap og Norgesmesterskap (lagsjakk og enkeltspiller)</p>
+        <p>Tidligere aktiv sjakkspiller, deltatt i Oslomesterskap og Norgesmesterskap (lagsjakk og enkeltspiller)</p> */}
       </Section>    
     </>
   );
