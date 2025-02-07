@@ -3,7 +3,7 @@
 import Link from 'next/link';
 
 const Navbar = () => {
-    const sections = ['prosjekter', 'utdanning', 'jobberfaring', 'fritid'];
+    const sections = ['Hvem er jeg?', 'prosjekter', 'ferdigheter', 'utdanning', 'jobberfaring', 'fritid'];
 
     return (
         <nav className='fixed top-0 left-0 right-0 bg-white shadow-md p-4 flex justify-center space-x-6 z-50'>

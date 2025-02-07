@@ -3,7 +3,20 @@ import Section from '@/components/Section';
 export default function Home(){
   return(
     <>
+      
+      <Section id='hvemerjeg?' title='Hvem er jeg?'>
+        <h1>Prosjekt 1: Gustav's Vinbar & Tapas </h1>
+        <p>Prosjekt 2: Devpipeline.no</p>
+        <p>Prosjekt 3: MexicanTrain.no</p>
+        <p>Prosjekt 4: MoviePicker</p>
+      </Section>
       <Section id='prosjekter' title='Prosjekter'>
+        <h1>Prosjekt 1: Gustav's Vinbar & Tapas </h1>
+        <p>Prosjekt 2: Devpipeline.no</p>
+        <p>Prosjekt 3: MexicanTrain.no</p>
+        <p>Prosjekt 4: MoviePicker</p>
+      </Section>
+      <Section id='ferdigheter' title='Ferdigheter'>
         <h1>Prosjekt 1: Gustav's Vinbar & Tapas </h1>
         <p>Prosjekt 2: Devpipeline.no</p>
         <p>Prosjekt 3: MexicanTrain.no</p>
