@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "Gustav's Vinbar & Tapas",
     description: "En eksklusiv vinbar med deilige tapasretter.",
-    image: "/images/gustavs-vinbar.jpg",
+    image: "/images/GustavsLogo.png",
   },
   {
     id: 2,

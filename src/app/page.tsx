@@ -1,13 +1,14 @@
 import DisplayFritid from '@/components/DisplayFritid';
 import DisplayProject from '@/components/DisplayProject';
+import DisplayUtdanning from '@/components/DisplayUtdanning';
 import Section from '@/components/Section';
 
 /* eslint-disable react/no-unescaped-entities */
 
 export default function Home(){
   return(
-    <>
-      <Section id='hvemerjeg?' title='Hvem er jeg?'>
+    <div className='w-2/3 mx-auto'>
+    <Section id='hvemerjeg?' title='Hvem er jeg?'>
         <h1>Velkommen til nettsiden min. Jeg heter Elias Opstad og ble nettopp ferdig med mastergrade innen Informatikk: programmering og systemarkitektur ved Universitetet i Oslo. </h1>
       </Section>
       <Section id='prosjekter' title='Prosjekter'>
@@ -20,8 +21,7 @@ export default function Home(){
         <p>Prosjekt 4: MoviePicker</p>
       </Section>
       <Section id='utdanning' title='Utdanning'>
-        <p>UiO (Master)- Informatikk: programmering og systemarkitektur</p>
-        <p>OsloMet (Bachelor) - Informasjonsteknologi</p>
+        <DisplayUtdanning/>
       </Section>
       <Section id='jobberfaring' title='Jobberfaring'>
         <p>Sommerjobb hos Bekk 2023</p>
@@ -34,6 +34,6 @@ export default function Home(){
         <p>Faceit lv 10 i CS2</p>
         <p>Tidligere aktiv sjakkspiller, deltatt i Oslomesterskap og Norgesmesterskap (lagsjakk og enkeltspiller)</p> */}
       </Section>    
-    </>
+    </div>
   );
 }
