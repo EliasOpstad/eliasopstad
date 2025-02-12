@@ -238,7 +238,7 @@ export default function DisplayUtdanning() {
                     <div className='flex items-center gap-4'>
                     <img src={utdanning.image} alt='logo' className='w-1/5 h-auto'/>
                     <div className='w-4/5'>
-                        <div className='text-2xl md:text-lg'>{utdanning.title}</div>
+                        <div className='text-xs md:text-xl lg:text-2xl'>{utdanning.title}</div>
                         <p>{utdanning.school}</p>
                     </div>
                     </div>
@@ -252,8 +252,8 @@ export default function DisplayUtdanning() {
                                         <div className='w-1/6'>
                                             <p>{course.code}</p>
                                         </div>
-                                        <div className='w-3/6'>
-                                            <h2>{course.title}</h2>
+                                        <div className='w-4/6'>
+                                            <h4>{course.title}</h4>
                                         </div>
                                         <div className='w-1/6 hover:text-blue-500'>
                                             <a href={course.link} target='_blank' rel='noreferrer'>Les mer</a>

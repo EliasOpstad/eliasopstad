@@ -8,25 +8,25 @@ const projects = [
     id: 1,
     title: "Gustav's Vinbar & Tapas",
     description: "En eksklusiv vinbar med deilige tapasretter.",
-    image: "/images/GustavsLogo.png",
+    image: "/images/GustavsLargeLogo.png",
   },
   {
     id: 2,
-    title: "Devpipeline.no",
-    description: "En plattform for CI/CD-læring og utvikling.",
-    image: "/images/devpipeline.jpg",
+    title: "Masteroppgave - UiO",
+    description: "Hvordan introdusere DevOps til nye studenter?",
+    image: "/images/Pipeline.png",
   },
   {
     id: 3,
     title: "MexicanTrain.no",
     description: "En digital versjon av det populære domino-spillet.",
-    image: "/images/mexican-train.jpg",
+    image: "/images/MexicanTrain.png",
   },
   {
     id: 4,
     title: "MoviePicker",
     description: "En app for å velge filmer sammen med venner.",
-    image: "/images/moviepicker.jpg",
+    image: "/images/Moviepicker.png",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function DisplayProject() {
                 <img
                   src={projects[selectedProject - 1].image}
                   alt={projects[selectedProject - 1].title}
-                  className="w-full h-64 object-cover rounded-md mb-4"
+                  className="w-full h-128 object-cover rounded-md mb-4"
                 />
                 <p>{projects[selectedProject - 1].description}</p>
               </div>
@@ -106,7 +106,7 @@ export default function DisplayProject() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-40 object-cover rounded-md mb-2"
+                  className="w-full h-80 object-cover rounded-md mb-2"
                 />
                 <h3 className="text-lg font-semibold">{project.title}</h3>
                 <p className="text-sm text-gray-600">{project.description}</p>
