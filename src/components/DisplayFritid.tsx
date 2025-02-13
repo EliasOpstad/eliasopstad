@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+/* eslint-disable react/no-unescaped-entities */
+
 const activities = [
   {
     id: 1,

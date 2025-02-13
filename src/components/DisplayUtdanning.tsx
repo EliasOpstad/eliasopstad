@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { title } from 'process';
 
+/* eslint-disable react/no-unescaped-entities */
+
 const utdanning = [
     {
         id: 1,
