@@ -238,7 +238,7 @@ export default function DisplayUtdanning() {
                     onClick={() => toggleExpandUtdanning(utdanning.id)}
                     className=' gap-4 p-4 cursor-pointer border rounded-lg shadow-md'>
                     <div className='flex items-center gap-4'>
-                    <img src={utdanning.image} alt='logo' className='w-1/5 h-auto'/>
+                    <Image src={utdanning.image} alt='logo' className='w-1/5 h-auto'/>
                     <div className='w-4/5'>
                         <div className='text-xs md:text-xl lg:text-2xl'>{utdanning.title}</div>
                         <p>{utdanning.school}</p>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 /* eslint-disable react/no-unescaped-entities */
 
@@ -103,7 +104,7 @@ export default function DisplayProject() {
             >
               <div className="p-4 border rounded-lg shadow-md bg-white">
                 <h2 className="text-2xl font-bold mb-2">{projects[selectedProject - 1].title}</h2>
-                <img
+                <Image
                   src={projects[selectedProject - 1].image}
                   alt={projects[selectedProject - 1].title}
                   className="w-full h-128 object-cover rounded-md mb-4"
@@ -136,7 +137,7 @@ export default function DisplayProject() {
                 onClick={() => handleProjectClick(project.id)}
                 className="p-4 border rounded-lg shadow-md bg-gray-50 hover:bg-gray-100 cursor-pointer"
               >
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-80 object-cover rounded-md mb-2"

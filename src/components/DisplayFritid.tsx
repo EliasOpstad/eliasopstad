@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 /* eslint-disable react/no-unescaped-entities */
 
@@ -58,7 +59,7 @@ export default function DisplayFritid() {
                       : 'border-gray-300 hover:border-gray-500'
                   }`}
                 >
-                  <img
+                  <Image
                     src={activity.image}
                     alt={activity.title}
                     className="w-full h-full object-cover"
@@ -77,7 +78,7 @@ export default function DisplayFritid() {
               className="p-4 border rounded-lg shadow-md bg-white w-full lg:w-2/3"
             >
               <h2 className="text-2xl font-bold mb-2">{activities[selectedActivity - 1].title}</h2>
-              <img
+              <Image
                 src={activities[selectedActivity - 1].image}
                 alt={activities[selectedActivity - 1].title}
                 className="w-full h-64 object-cover rounded-md mb-4"
@@ -103,7 +104,7 @@ export default function DisplayFritid() {
                 whileTap={{ scale: 0.9 }}
                 className="w-32 h-32 rounded-full border-4 border-gray-300 hover:border-gray-500 cursor-pointer overflow-hidden shadow-md"
               >
-                <img
+                <Image
                   src={activity.image}
                   alt={activity.title}
                   className="w-full h-full object-cover"
