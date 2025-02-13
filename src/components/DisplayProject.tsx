@@ -9,24 +9,49 @@ const projects = [
     title: "Gustav's Vinbar & Tapas",
     description: "En eksklusiv vinbar med deilige tapasretter.",
     image: "/images/GustavsLargeLogo.png",
+    stack: [
+      "React (Typescript)",
+      "CSS (Styled components)",
+      "Node.js",
+      "Routing: React Router",
+      "Vercel", //Ikke ferdig
+    ]
   },
   {
     id: 2,
     title: "Masteroppgave - UiO",
     description: "Hvordan introdusere DevOps til nye studenter?",
     image: "/images/Pipeline.png",
+    stack: [
+      "Astro JS",
+      "Markdown",
+      "CSS",
+      "Datadog",
+      "Vercel", //Ikke ferdig
+    ]
   },
   {
     id: 3,
     title: "MexicanTrain.no",
     description: "En digital versjon av det populære domino-spillet.",
     image: "/images/MexicanTrain.png",
+    stack: [
+      "React (Typescript)",
+      "Tailwind CSS",
+      "Next.js",
+      "Vercel",
+    ]
   },
   {
     id: 4,
     title: "MoviePicker",
     description: "En app for å velge filmer sammen med venner.",
     image: "/images/Moviepicker.png",
+    stack: [
+      "Flutter (Dart)",
+      "Firebase Advanced",
+      "TMDB API",
+    ]
   },
 ];
 
@@ -82,6 +107,12 @@ export default function DisplayProject() {
                   className="w-full h-128 object-cover rounded-md mb-4"
                 />
                 <p>{projects[selectedProject - 1].description}</p>
+                <h3 className="text-lg font-semibold mt-4">Teknologier:</h3>
+                <ul>
+                  {projects[selectedProject - 1].stack.map((tech) => (
+                    <li key={tech}>{tech}</li>
+                  ))}
+                </ul>
               </div>
             </motion.div>
           </>
