@@ -62,6 +62,8 @@ export default function DisplayFritid() {
                   <Image
                     src={activity.image}
                     alt={activity.title}
+                    width={96}
+                    height={96}
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -81,6 +83,8 @@ export default function DisplayFritid() {
               <Image
                 src={activities[selectedActivity - 1].image}
                 alt={activities[selectedActivity - 1].title}
+                width={800}
+                height={400}
                 className="w-full h-64 object-cover rounded-md mb-4"
               />
               <p>{activities[selectedActivity - 1].description}</p>
@@ -107,6 +111,8 @@ export default function DisplayFritid() {
                 <Image
                   src={activity.image}
                   alt={activity.title}
+                  width={128}
+                  height={128}
                   className="w-full h-full object-cover"
                 />
               </motion.div>

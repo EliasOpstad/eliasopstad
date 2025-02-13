@@ -107,6 +107,8 @@ export default function DisplayProject() {
                 <Image
                   src={projects[selectedProject - 1].image}
                   alt={projects[selectedProject - 1].title}
+                  width={800}
+                  height={400}
                   className="w-full h-128 object-cover rounded-md mb-4"
                 />
                 <p>{projects[selectedProject - 1].description}</p>
@@ -140,6 +142,8 @@ export default function DisplayProject() {
                 <Image
                   src={project.image}
                   alt={project.title}
+                  width={800}
+                  height={400}
                   className="w-full h-80 object-cover rounded-md mb-2"
                 />
                 <h3 className="text-lg font-semibold">{project.title}</h3>
